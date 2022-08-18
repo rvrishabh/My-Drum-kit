@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background-color: #231955;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 5rem;
+    color: aliceblue;
+    text-shadow: 3px 0 red;
+    letter-spacing: 2px;
+}
+.container{
+    margin: 10% auto;
+}
+.pressed{
+  box-shadow: 0 5px 5px 0 grey;
+  opacity: .5;
+
+}
+
+.w{
+    background-image: url(images/tom1.png);
+}
+.a{
+    background-image: url(images/tom2.png);
+}
+.s{
+    background-image: url(images/tom3.png);
+}
+.d{
+    background-image: url(images/tom4.png);
+}
+.j{
+    background-image: url(images/snare.png);
+}
+.k{
+    background-image: url(images/crash.png);
+}
+.l{
+    background-image: url(images/kick.png);
+}
+button{
+    font-size: 5rem;
+    color: blue;
+    border: 10px solid grey;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 7px;
+    text-shadow: 3px 2px;
+}
+
+footer{
+    font-size: 1.5rem;
+    color: aliceblue;
+}
